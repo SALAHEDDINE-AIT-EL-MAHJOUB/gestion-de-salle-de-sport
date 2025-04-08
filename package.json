@@ -1,0 +1,33 @@
+{
+  "name": "venue-management-app",
+  "version": "1.0.0",
+  "description": "A web application for managing clients and offers for a venue, including open and closed days.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "venue",
+    "management",
+    "clients",
+    "offers",
+    "firebase"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "firebase": "^11.5.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "5.0.0"
+  },
+  "devDependencies": {},
+  "homepage": "http://yourhomepage.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/venue-management-app.git"
+  }
+}
