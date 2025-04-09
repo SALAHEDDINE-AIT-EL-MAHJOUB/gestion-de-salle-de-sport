@@ -1,7 +1,8 @@
 # Venue Management App (BODY GYM)
 
 This project is a web-based application designed for managing a venue, specifically tailored for a gym environment like "BODY GYM". It provides separate interfaces for administrators and clients.
-
+## view project :
+https://salaheddine-ait-el-mahjoub.github.io/gestion-de-salle-de-sport/
 ## Features
 
 ### 1. Admin Panel (`index.html`)
