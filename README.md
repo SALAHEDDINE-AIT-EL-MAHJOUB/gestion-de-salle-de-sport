@@ -92,12 +92,10 @@ This project is a web-based application designed for managing a venue, specifica
     *   Copy the Firebase configuration object provided.
     *   Enable **Realtime Database**. You might start in Test Mode for initial development, but **remember to set up proper Security Rules** before production:
         ```json
-        // Example (Restrictive - adjust as needed!)
+        // Example
         {
           "rules": {
-            // Allow admin full access (you'll need a way to identify admin)
-            // Allow authenticated clients read access to their data, messages, offers, schedule
-            // Allow authenticated clients write access only to their messages node
+            
             ".read": "auth != null",
             ".write": "auth != null" // VERY permissive, tighten this!
           }
